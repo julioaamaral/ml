@@ -1,3 +1,0 @@
-...
-#this part create a simple math expression
-c = a + b
