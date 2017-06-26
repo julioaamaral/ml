@@ -1,0 +1,13 @@
+...
+...
+model = Sequential()
+model.add(Dense(N_HIDDEN, input_shape=(RESHAPED,)))
+model.add(Activation('relu'))
+model.add(Dense(N_HIDDEN))
+model.add(Activation('relu'))
+model.add(Dense(NB_CLASSES))
+model.add(Activation('softmax'))
+model.summary()
+model.compile(loss='categorical_crossentropy',
+...
+...
